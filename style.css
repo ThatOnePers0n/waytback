@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    font-family: Poppins;
+    background: linear-gradient(300deg,#ff0000,#000000,#ff0000,#000000,#ff0000,#000000,#ff0000,#000000,#ff0000,#000000,#ff0000,#000000);
+    background-size: 1000% 1000%;
+     animation: gradient-animation 72s ease infinite;
+     padding: 70px 0;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+h1 {
+    color: #fff; /* Set the title font color to white */
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    text-align: center;
+    font-family: Poppins;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+#combine-btn {
+    background-color: #FFFFFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    padding: 5px;
+}
+
+.arrow {
+    font-size: 18px;
+    color: #ff0000;
+}
