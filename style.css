@@ -59,7 +59,7 @@ input[type="text"] {
 }
 
 p {
-    color: #fff; /* Set the title font color to white */
+    color: white;
 }
 
  a:link {
