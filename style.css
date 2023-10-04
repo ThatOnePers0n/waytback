@@ -6,7 +6,7 @@ body {
     padding: 20px;
     font-family: Poppins;
     background: linear-gradient(300deg,#ff0000,#000000,#ff0000,#000000,#ff0000,#000000,#ff0000,#000000,#ff0000,#000000,#ff0000,#000000);
-    background-size: 1200% 1200%;
+    background-size: 2000% 2000%;
      animation: gradient-animation 72s ease infinite;
      padding: 70px 0;
 }
