@@ -57,3 +57,23 @@ input[type="text"] {
     font-size: 18px;
     color: #ff0000;
 }
+
+p {
+    color: #fff; /* Set the title font color to white */
+}
+
+ a:link {
+    color: white;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  a:active {
+    color: white;
+  } 
